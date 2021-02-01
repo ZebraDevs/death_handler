@@ -1,3 +1,15 @@
+# death_handler
+
+This is working fork of [DeathHandler](https://github.com/vmarkovtsev/DeathHandler), which is used in c++ programs in [carl](https://github.com/fetchrobotics/carl) to provide stack trace and active thread information on segmentation faults and other failures.
+
+This local fork can be built with `bazel` with:
+
+```
+bazel build :death_handler
+```
+
+## Repository Description
+
 DeathHandler class installs SEGFAULT, SIGABRT and SIGFPE signal handlers to print
 a nice stack trace and (if requested) generate a core dump.
 In DeathHandler's constructor, signal handlers
