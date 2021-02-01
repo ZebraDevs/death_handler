@@ -1,0 +1,6 @@
+# Bazel Build Artifacts
+bazel-testlogs
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-death_handler
