@@ -4,6 +4,7 @@ cc_library(
     srcs = ["death_handler.cc"],
     hdrs = ["death_handler.h"],
     include_prefix = "",
+    includes = [""],
     strip_include_prefix = "",
     visibility = ["//visibility:public"],
     deps = [
